@@ -5,6 +5,7 @@ environment:
     secure: iRvakKA7cXpgS2mxYWjVvI7gWB73WZB+dMbovhFfyut9FX1gx0gqupF9XO7dTC2i
 
 install:
+  - ps: Install-Product node ' '
   - node --version
   - npm --version
   - npm install
